@@ -56,4 +56,21 @@ func main() {
 	advancedarray.SearchForAnElementInAnUnsorted(arr7, 6)
 	text := [5]string{"hello", "q", "world", "jfhj", "sdh"}
 	advancedarray.SearchForAnElementInAnUnsortedString(text, "hello")
+	slice := []int{5, 2, 9, 2, 7, 5, 3, 3, 9, 6}
+	advancedarray.SortBasicOnDuplicateElement(slice)
+	fmt.Println("print sort with duplicate :", slice)
+	slic := advancedarray.ArrayToSlice(arr7)
+	fmt.Println("convert array to slice :", slic)
+	names := []string{"Zoe", "Alice", "Bob"}
+	advancedarray.SortStringArray(names)
+	fmt.Println("sort the string :", names)
+	str := advancedarray.SwapPara("Hello world, this is Go")
+	fmt.Println("word revers in para is :", str)
+	word := advancedarray.ReverseWordOrder("Hello world, this is Go")
+	fmt.Println("Reverse the words :", word)
+	match := advancedarray.SearchWordFromText("Hello world, this is Go", "Hello")
+	fmt.Println("word is match :", match)
+	bin := []int{2, 4, 6, 8, 9}
+	binary := advancedarray.BinarySearch(bin, 6)
+	fmt.Println("this target number is index :", binary)
 }

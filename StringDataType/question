@@ -1,0 +1,49 @@
+1. Check if a String is a Substring of Another String
+Question: Write a Go function that checks if a string sub is a substring of another string str.
+
+Example:
+Input: str = "hello world", sub = "world"
+Output: true
+
+2. Find the Index of a Substring in a String
+Question: Write a Go function that finds the index of the first occurrence of a substring sub in string str.
+
+Example:
+Input: str = "hello world", sub = "world"
+Output: 6
+
+3. Count the Number of Substring Occurrences in a String
+Question: Write a Go function that counts how many times a substring sub occurs in a string str.
+
+Example:
+Input: str = "hello world hello", sub = "hello"
+Output: 2
+
+4. Extract a Substring from a String
+Question: Write a Go function that returns a substring of a string str from index start to index end.
+
+Example:
+Input: str = "hello world", start = 0, end = 5
+Output: "hello"
+
+5. Check if a String Starts with a Given Substring
+Question: Write a Go function that checks if a string str starts with a given substring sub.
+
+Example:
+Input: str = "hello world", sub = "hello"
+Output: true
+
+6. Check if a String Ends with a Given Substring
+Question: Write a Go function that checks if a string str ends with a given substring sub.
+
+Example:
+Input: str = "hello world", sub = "world"
+Output: true
+
+7. Find All Occurrences of a Substring in a String
+Question: Write a Go function that returns all starting indices where the substring sub appears in the string str.
+
+Example:
+Input: str = "ababab", sub = "ab"
+Output: [0 2 4]
+
