@@ -2,6 +2,7 @@ package main
 
 import (
 	searchword "StringDataType/searchWord"
+	someimp "StringDataType/someImp"
 	swapstring "StringDataType/swapString"
 	"fmt"
 )
@@ -16,4 +17,7 @@ func main() {
 	fmt.Println("FindSubString :", searchword.FindSubString("GolangIsGood", "Is"))
 	fmt.Println("CountCharFromString :", searchword.CountCharFromString("GoLangIsGreat"))
 	searchword.ReplaceChar("abacada")
+	someimp.ToLower("HELLO WORLD")
+	someimp.ToUpper("hello world")
+	someimp.CleanString("@@hel12lo!!world")
 }

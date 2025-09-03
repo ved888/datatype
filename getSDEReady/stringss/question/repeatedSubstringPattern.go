@@ -2,6 +2,7 @@ package question
 
 import "strings"
 
+// i/p:=abcabcabcabc
 func RepeatedSubstringPattern(str string) bool {
 	n := len(str)
 
@@ -39,7 +40,7 @@ func Para(text string) string {
 	for _, v := range split {
 		result = append(result, ReverseString(v))
 	}
-	return string.Join(result, " ")
+	return strings.Join(result, " ")
 
 }
 

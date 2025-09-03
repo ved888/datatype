@@ -73,4 +73,9 @@ func main() {
 	bin := []int{2, 4, 6, 8, 9}
 	binary := advancedarray.BinarySearch(bin, 6)
 	fmt.Println("this target number is index :", binary)
+	sortArr1 := []int{26, 38, 60, 87, 90, 95}
+	sortArr2 := []int{13, 35, 50, 59, 85, 89, 91, 98, 99}
+	meargArray := advancedarray.MeargTwoSortedArray(sortArr1, sortArr2)
+	fmt.Println("MeargTwoSortedArray :", meargArray)
+	advancedarray.GetUniQuePairs()
 }
